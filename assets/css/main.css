@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:300,700');
+
+* {
+    font-family: 'Comfortaa', cursive;
+    font-weight: 300;
+}
+
+b {
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#homepage {
+    background: linear-gradient(135deg, #276fdb, #49baee);
+    color: #ffffff !important;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.home .img {
+    margin-right: 26px;
+}
+
+.home h1 {
+    margin-bottom: -16px;
+}
+
+.home a {
+    border-bottom: 2px dotted #ffffff;
+    transition: 0.2s linear;
+}
+
+.home a:hover {
+    color: #383838 !important;
+    border-bottom: 2px dotted #383838;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltip-text {
+    visibility: hidden;
+    width: 120px;
+    background-color: #383838;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    margin-bottom: 6px;
+
+    position: absolute;
+    z-index: 1;
+    width: 120px;
+    bottom: 100%;
+    left: 50%; 
+    margin-left: -60px;
+
+    opacity: 0;
+    transition: opacity 0.3s linear;
+}
+
+.tooltip:hover .tooltip-text {
+    visibility: visible;
+    opacity: 0.9;
+}
