@@ -1,2 +1,1 @@
-# bluii.github.io
-repository for my personal website.
+this is the repository for my **personal** website. don't go snooping around and taking stuff without permission, hovever feel free to *inspect* the code if you want to learn from it. contact me through the contact methods listed [here](https://t.co/f713MozhjE) if you need to ask anything.
